@@ -1,0 +1,63 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "test-run;1st-test-case",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "1st test case",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "checking demo",
+            "match": {
+              "location": "file:\\C:\\Users\\hi\\Desktop\\Typescrpit\\tests\\steps\\demo.ts:3"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "print meassage",
+            "match": {
+              "location": "file:\\C:\\Users\\hi\\Desktop\\Typescrpit\\tests\\steps\\demo.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "verify",
+            "match": {
+              "location": "file:\\C:\\Users\\hi\\Desktop\\Typescrpit\\tests\\steps\\demo.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-run",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Test run",
+    "tags": [],
+    "uri": "tests\\features\\demo.feature"
+  }
+]
