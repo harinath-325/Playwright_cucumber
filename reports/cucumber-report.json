@@ -15,11 +15,11 @@
             "line": 4,
             "name": "checking demo",
             "match": {
-              "location": "file:\\C:\\Users\\hi\\Desktop\\Typescrpit\\tests\\steps\\demo.ts:3"
+              "location": "file:\\C:\\Users\\hi\\Desktop\\Playwright_cucumber\\tests\\steps\\demo.ts:3"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 3745300
             }
           },
           {
@@ -28,11 +28,11 @@
             "line": 5,
             "name": "print meassage",
             "match": {
-              "location": "file:\\C:\\Users\\hi\\Desktop\\Typescrpit\\tests\\steps\\demo.ts:7"
+              "location": "file:\\C:\\Users\\hi\\Desktop\\Playwright_cucumber\\tests\\steps\\demo.ts:7"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 634699
             }
           },
           {
@@ -41,11 +41,11 @@
             "line": 6,
             "name": "verify",
             "match": {
-              "location": "file:\\C:\\Users\\hi\\Desktop\\Typescrpit\\tests\\steps\\demo.ts:12"
+              "location": "file:\\C:\\Users\\hi\\Desktop\\Playwright_cucumber\\tests\\steps\\demo.ts:12"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 720600
             }
           }
         ],

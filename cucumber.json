@@ -3,7 +3,7 @@
         "paths": [
             "tests/features/"
         ], 
-        "dryRun": true,
+        "dryRun": false,
         "format": [
             "progress-bar",
             "summary",
