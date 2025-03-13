@@ -15,11 +15,11 @@
             "line": 4,
             "name": "checking demo",
             "match": {
-              "location": "file:\\C:\\Users\\hi\\Desktop\\Playwright_cucumber\\tests\\steps\\demo.ts:3"
+              "location": "file:\\C:\\Users\\hi\\Desktop\\Playwright_cucumber\\tests\\steps\\demo.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 3745300
+              "duration": 2828482599
             }
           },
           {
@@ -28,11 +28,12 @@
             "line": 5,
             "name": "print meassage",
             "match": {
-              "location": "file:\\C:\\Users\\hi\\Desktop\\Playwright_cucumber\\tests\\steps\\demo.ts:7"
+              "location": "file:\\C:\\Users\\hi\\Desktop\\Playwright_cucumber\\tests\\steps\\demo.ts:17"
             },
             "result": {
-              "status": "passed",
-              "duration": 634699
+              "status": "failed",
+              "duration": 5008010400,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\hi\\Desktop\\Playwright_cucumber\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
             }
           },
           {
@@ -41,11 +42,11 @@
             "line": 6,
             "name": "verify",
             "match": {
-              "location": "file:\\C:\\Users\\hi\\Desktop\\Playwright_cucumber\\tests\\steps\\demo.ts:12"
+              "location": "file:\\C:\\Users\\hi\\Desktop\\Playwright_cucumber\\tests\\steps\\demo.ts:25"
             },
             "result": {
-              "status": "passed",
-              "duration": 720600
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
