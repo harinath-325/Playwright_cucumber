@@ -8,11 +8,14 @@
             "progress-bar",
             "summary",
             "json:reports/cucumber-report.json", 
-            "html:reports/cucumber-report.html"
+            "html:reports/cucumber-report.html",
+            "allure-cucumberjs/reporter"
         ],
         "formatOptions": {
             "colorsEnabled": true,
-            "snippetInterface": "async-await"
+            "snippetInterface": "async-await",
+            "resultsDir":"allure-report"
+
         },
         "require": [
             "tests/steps/*.ts"
