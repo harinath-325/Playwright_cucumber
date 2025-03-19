@@ -8,7 +8,8 @@
             "progress-bar",
             "summary",
             "json:reports/cucumber-report.json", 
-            "html:reports/cucumber-report.html"
+            "html:reports/cucumber-report.html",
+            "@cucumber/pretty-formatter"
         ],
         "formatOptions": {
             "colorsEnabled": true,
