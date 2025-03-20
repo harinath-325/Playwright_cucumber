@@ -25,8 +25,10 @@ Given('checking demo', async function () {
 
 
   Then('verify', async function () {
-    const title = await page.title();
-    console.log(title);
+    await browser.close();
+    //const title = await page.title();
+    //console.log(title);
     //await expect(title).toBe("")
    //console.log("verify")
+
  });

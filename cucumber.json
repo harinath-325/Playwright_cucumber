@@ -1,7 +1,7 @@
 { 
     "default": {
         "paths": [
-            "tests/features/allure-demo.feature"
+            "tests/features/"
         ], 
         "dryRun": false,
         "format": [
@@ -18,7 +18,7 @@
             "resultsDir": "allure-results"
         },
         "require": [
-            "tests/steps/allure-demo.ts"
+            "tests/steps/*.ts"
         ],
         "requireModule":[
             "ts-node/register"

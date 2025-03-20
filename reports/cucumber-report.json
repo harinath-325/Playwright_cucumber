@@ -1,1 +1,63 @@
-[]
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "test-run;1st-test-case",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "1st test case",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "checking demo",
+            "match": {
+              "location": "file:\\C:\\Users\\hi\\Desktop\\Playwright_cucumber\\tests\\steps\\demo.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3838421300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "print meassage",
+            "match": {
+              "location": "file:\\C:\\Users\\hi\\Desktop\\Playwright_cucumber\\tests\\steps\\demo.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103786199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "verify",
+            "match": {
+              "location": "file:\\C:\\Users\\hi\\Desktop\\Playwright_cucumber\\tests\\steps\\demo.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 733958599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-run",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Test run",
+    "tags": [],
+    "uri": "tests\\features\\demo.feature"
+  }
+]
