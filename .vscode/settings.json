@@ -1,0 +1,15 @@
+{
+  "cucumberTestRunner.featuresRoot": "tests/features",
+  "cucumberTestRunner.featuresExtension": ".feature",
+  "cucumberTestRunner.glue": "tests/steps",
+  "cucumberTestRunner.requireModules": [
+    "ts-node/register"
+  ],
+  "cucumberTestRunner.requirePaths": [
+    "tests/steps/**/*.ts"
+  ],
+  "cucumberTestRunner.env": {
+    "NODE_OPTIONS": "--loader ts-node/esm"
+  },
+  "cucumberTestRunner.runProfile": "ts-node"
+}

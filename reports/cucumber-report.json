@@ -18,8 +18,9 @@
               "location": "file:\\C:\\Users\\hi\\Desktop\\Playwright_cucumber\\tests\\steps\\demo.ts:9"
             },
             "result": {
-              "status": "passed",
-              "duration": 3838421300
+              "status": "failed",
+              "duration": 5025438399,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\hi\\Desktop\\Playwright_cucumber\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
             }
           },
           {
@@ -31,8 +32,8 @@
               "location": "file:\\C:\\Users\\hi\\Desktop\\Playwright_cucumber\\tests\\steps\\demo.ts:18"
             },
             "result": {
-              "status": "passed",
-              "duration": 103786199
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -44,8 +45,8 @@
               "location": "file:\\C:\\Users\\hi\\Desktop\\Playwright_cucumber\\tests\\steps\\demo.ts:27"
             },
             "result": {
-              "status": "passed",
-              "duration": 733958599
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],

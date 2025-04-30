@@ -1,14 +1,15 @@
 import{Given,When, Then} from "@cucumber/cucumber"
 
 import{chromium, Page, Browser} from "@playwright/test"
-//const { allure } = require('allure-playwright');
-
+//import allure from "allure-cucumberjs"
+//const { allure } = require('allure-cucumberjs');;
 let browser: Browser;
 let page: Page;
 
 Given('checking demo', async function () {
     browser = await chromium.launch({headless: false});
     page   = await browser.newPage();
+    //this.allure.label('feature', 'Open App');
     await page.goto("https://google.com/")
 
     console.log("entering the website")
