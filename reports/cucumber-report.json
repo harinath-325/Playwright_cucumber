@@ -10,47 +10,59 @@
         "name": "1st test case",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2484300699
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "checking demo",
-            "match": {
-              "location": "file:\\C:\\Users\\hi\\Desktop\\Playwright_cucumber\\tests\\steps\\demo.ts:8"
-            },
+            "name": "User is on the Swag labs website",
             "result": {
-              "status": "passed",
-              "duration": 2828482599
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "print meassage",
-            "match": {
-              "location": "file:\\C:\\Users\\hi\\Desktop\\Playwright_cucumber\\tests\\steps\\demo.ts:17"
-            },
+            "name": "user logs into the website",
             "result": {
-              "status": "failed",
-              "duration": 5008010400,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\hi\\Desktop\\Playwright_cucumber\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 6,
-            "name": "verify",
-            "match": {
-              "location": "file:\\C:\\Users\\hi\\Desktop\\Playwright_cucumber\\tests\\steps\\demo.ts:25"
-            },
+            "name": "verify the items in the website",
             "result": {
-              "status": "skipped",
+              "status": "undefined",
               "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 4260599,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'close')\n    at World.<anonymous> (file:///C:/Users/hi/Playwright_cucumber/Playwright_cucumber/tests/hooks/hooks.ts:18:14)\n    at Object.run (C:\\Users\\hi\\Playwright_cucumber\\Playwright_cucumber\\node_modules\\@cucumber\\cucumber\\src\\user_code_runner.ts:37:21)\n    at C:\\Users\\hi\\Playwright_cucumber\\Playwright_cucumber\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:54:24\n    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)\n    at runInTestCaseScope (C:\\Users\\hi\\Playwright_cucumber\\Playwright_cucumber\\node_modules\\@cucumber\\cucumber\\src\\runtime\\scope\\test_case_scope.ts:15:24)\n    at Object.run (C:\\Users\\hi\\Playwright_cucumber\\Playwright_cucumber\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:53:44)\n    at async TestCaseRunner.invokeStep (C:\\Users\\hi\\Playwright_cucumber\\Playwright_cucumber\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:140:12)\n    at async TestCaseRunner.runHook (C:\\Users\\hi\\Playwright_cucumber\\Playwright_cucumber\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:279:12)\n    at async C:\\Users\\hi\\Playwright_cucumber\\Playwright_cucumber\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:237:18\n    at async TestCaseRunner.aroundTestStep (C:\\Users\\hi\\Playwright_cucumber\\Playwright_cucumber\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:173:28)"
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@swaglabs",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       }
     ],
@@ -59,6 +71,6 @@
     "keyword": "Feature",
     "name": "Test run",
     "tags": [],
-    "uri": "tests\\features\\demo.feature"
+    "uri": "features\\demo.feature"
   }
 ]

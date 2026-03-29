@@ -1,30 +1,23 @@
 import{Given,When, Then} from "@cucumber/cucumber"
+import { LoginPage } from "../../pages/loginPage";
+import { ItemsPage } from "../../pages/itemsPage";
+import { page } from "../hooks/hooks";
 
-import{chromium, Page, Browser} from "@playwright/test"
+let loginPage: LoginPage;
+let itemsPage: ItemsPage;
+loginPage = new LoginPage(page);
+itemsPage = new ItemsPage(page);  
+Given('User is on the Swag labs website', async function () {
+  await loginPage.navigateToSwagLabs();
+  console.log("entering the Swag labs website")
+});
 
-let browser: Browser;
-let page: Page;
+When('user logs into the website {string} and {string}', async function (username: string, password: string) {
+  await loginPage.login(username, password);
+  console.log("logging into the website");
+});
 
-Given('checking demo', async function () {
-    browser = await chromium.launch({headless: false});
-    page   = await browser.newPage();
-    await page.goto("https://bookcart.azurewebsites.net/")
-
-    console.log("entering the website")
-
-  });
-
-  When('print meassage', async function () {
-   await page.locator("//span[text() =' Login ']").click();
-   //await page.locator("//textarea[@aria-label ='Search']").fill("make my trip");
-   //await page.keyboard.press("Enter");
-   console.log("Entered playwright in search box")
- });
-
-
-  Then('verify', async function () {
-    const title = await page.title();
-    console.log(title);
-    //await expect(title).toBe("")
-   //console.log("verify")
- });
+Then('verify the items in the website', async function (products:string) {
+  
+  
+});
